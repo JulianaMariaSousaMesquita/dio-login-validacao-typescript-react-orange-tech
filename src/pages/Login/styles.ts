@@ -1,7 +1,5 @@
 import styled from 'styled-components';
 
-
-
 export const Container = styled.div`
     width: 100%; 
     height: 100vh;
@@ -49,3 +47,6 @@ export const Spacing = styled.div`
     margin: 10px 0;
 `
 
+export const Disabled = styled.button`
+    color: #565a61;    
+`
